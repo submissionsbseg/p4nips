@@ -8,7 +8,7 @@ Implementing a Network Intrusion Protection System in a P4 switch
 - Offloads the computation from a general use machine (packet doesnt need to go
 through the TCP/IP stack)
 - Programmable ASIC switches (Tofino, Tomahawk, Trident, Teralynx, etc) are
-fast as fuck to process a packet (some tens of cycles at most), compared to
+real fast to process a packet (some tens of cycles at most), compared to
 a software switch or IDS.
 - Has little impact on the latency on the network flow compared to traditional
 IPSs
